@@ -2,6 +2,11 @@
 import numpy as np
 import cv2
 
+import keras
+import tensorflow as tf
+import torch
+import scikitlearn  as sn
+
 # path to image
 path_to_image = "data/cv_image_000.jpg"
 # read the image with cv2
